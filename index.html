@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rocío Alberto | Front-End Developer</title>
+
+    <link rel="shortcut icon" href="img/laboratoria.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <style>
+      #about-me,
+      #skills,
+      #projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        box-sizing: border-box;
+      }
+
+      .section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="navbar-fixed">
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <a
+              href="#"
+              data-activates="slide-out"
+              class="button-collapse"
+              aria-label="Menú móvil"
+            >
+              <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#about-me">Acerca de Mí</a></li>
+              <li><a href="#skills">Herramientas</a></li>
+              <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#contact">Contáctame</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <ul id="slide-out" class="side-nav">
+      <li><a href="#about-me">Acerca de Mí</a></li>
+      <li><a href="#skills">Herramientas</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contáctame</a></li>
+    </ul>
+
+    <section id="home">
+      <div id="particles-js">
+        <div class="text center-align">
+          <h3 class="hello">Hola, mi nombre es <span>Rocío Alberto</span></h3>
+          <h5 class="hello media"><span>Front End Developer</span></h5>
+          <p>
+            I <i class="material-icons heart" aria-hidden="true">favorite</i>
+            <span class="text-change"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me" class="box-info section scrollspy flex-center">
+      <div class="container">
+        <div class="row-grid">
+          <div class="row-grid-item-left">
+            <img
+              src="img/profile.jpg"
+              alt="Foto de perfil de Rocío Alberto"
+              class="circle img-profile smoo"
+            />
+          </div>
+          <div class="row-grid-item">
+            <h3 id="about"><span>ACERCA DE MÍ</span></h3>
+            <p class="introduction">
+              ¡Hola! Mi nombre es <span>Rocío Alberto</span>, soy una
+              desarrolladora Front End egresada de Laboratoria.
+              <span
+                >Mi pasión es la programación y me encanta aprender cosas nuevas
+                sobre tecnología.</span
+              >
+              Trabajo usando metodologías ágiles para dar mayor velocidad y
+              eficiencia a cada proyecto. En mi tiempo libre disfruto leer
+              tutoriales, viajar, hacer ejercicio y escuchar música.
+            </p>
+            <p class="introduction">
+              <span>Soy perseverante, disciplinada y comprometida.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="background-three section scrollspy">
+      <div class="container work">
+        <div class="row">
+          <div class="col s12 center-align">
+            <h1 id="skill-set">HERRAMIENTAS</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m2 s6" aria-label="React JS">
+            <div class="tool">
+              <i class="devicon-react-original icon"></i>
+              <h5>REACT JS</h5>
+              <p>
+                Librería de JavaScript para construir interfaces dinámicas y
+                modulares.
+              </p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-fastapi-plain icon"></i>
+              <h5>WEB SERVICE (REST API)</h5>
+              <p>Integración de datos mediante solicitudes HTTP.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-graphql-plain icon"></i>
+              <h5>GRAPHQL</h5>
+              <p>
+                Consulta y manipulación eficiente de datos desde el cliente.
+              </p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-firebase-plain icon"></i>
+              <h5>FIREBASE</h5>
+              <p>
+                Plataforma en la nube con autenticación y base de datos en
+                tiempo real.
+              </p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-sass-original icon"></i>
+              <h5>SASS</h5>
+              <p>
+                Preprocesador CSS que mejora la mantenibilidad y productividad
+                en estilos.
+              </p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-nodejs-plain icon"></i>
+
+              <h5>NODE JS</h5>
+              <p>Entorno de ejecución para JavaScript del lado del servidor.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-materialui-plain icon"></i>
+              <h5>MATERIAL UI</h5>
+              <p>Biblioteca moderna de componentes para interfaces React.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-bootstrap-plain icon"></i>
+              <h5>REACT BOOTSTRAP</h5>
+              <p>Integración adaptable de Bootstrap con React.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-html5-plain icon"></i>
+              <h5>HTML5</h5>
+              <p>Estructura semántica y moderna de páginas web.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-css3-plain icon"></i>
+              <h5>CSS3</h5>
+              <p>Diseño visual y animaciones responsivas.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-git-plain icon"></i>
+              <h5>GIT</h5>
+              <p>Sistema de control de versiones distribuido.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-github-plain icon"></i>
+              <h5>GITHUB/ GTILAB</h5>
+              <p>
+                Plataformas colaborativas para gestión de código y despliegue.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-javascript-plain icon"></i>
+              <h5>JAVASCRIPT</h5>
+              <p>Lenguaje base para desarrollo web interactivo.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-redux-original icon"></i>
+              <h5>REDUX</h5>
+              <p>Gestor de estado centralizado para aplicaciones React.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-typescript-plain icon"></i>
+              <h5>TYPESCRIPT</h5>
+              <p>
+                Superset tipado que aumenta la escalabilidad y robustez del
+                código.
+              </p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-antdesign-plain icon"></i>
+              <h5>ANT DESIGN</h5>
+              <p>Biblioteca de componentes UI profesional para React.</p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-jira-plain icon"></i>
+              <h5>JIRA</h5>
+              <p>
+                Herramienta ágil para planificación y seguimiento de proyectos.
+              </p>
+            </div>
+          </div>
+          <div class="col m2 s6">
+            <div class="tool">
+              <i class="devicon-gitlab-plain icon"></i>
+              <h5>GITLAB</h5>
+              <p>Plataforma de desarrollo colaborativo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="background-three section scrollspy">
+      <div class="container smoo">
+        <div class="row">
+          <div class="col s12 center-align title-work">
+            <h1>PROYECTOS</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m4">
+            <article class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img
+                  class="activator"
+                  src="img/login-usuarios.gif"
+                  alt="Proyecto Dynamic Login"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator"
+                  >Dynamic Login<i class="material-icons right"
+                    >more_vert</i
+                  ></span
+                >
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  ><i class="material-icons right">close</i></span
+                >
+                <p>
+                  Sistema de login dinámico con panel administrador, generación
+                  de reportes PDF y exportaciones Excel.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col m4 center-align hide-on-small-only">
+            <img
+              src="img/animated.gif"
+              alt="Ejemplo de sitio responsive"
+              class="responsive-img gif"
+            />
+          </div>
+
+          <div class="col s12 m4">
+            <article class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img
+                  class="activator"
+                  src="img/form-user.gif"
+                  alt="Proyecto Dynamic Form"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator"
+                  >Dynamic Form<i class="material-icons right"
+                    >more_vert</i
+                  ></span
+                >
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  ><i class="material-icons right">close</i></span
+                >
+                <p>
+                  Formulario dinámico conectado a una base de datos que registra
+                  y muestra envíos por usuario.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="row smoo">
+          <div class="col s12 m4">
+            <article class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img
+                  class="activator"
+                  src="img/OceanDex.gif"
+                  alt="Proyecto TypeScript"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator">
+                  OceanDex<i class="material-icons right">more_vert</i></span
+                >
+                <p>
+                  <a
+                    href="https://github.com/RocioAl/Pokemon-React-TypeScript"
+                    target="_blank"
+                    class="code"
+                    >CODE</a
+                  >
+                  <a
+                    href="https://teal-cuchufli-a57a85.netlify.app/"
+                    target="_blank"
+                    >DEMO</a
+                  >
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  ><i class="material-icons right">close</i></span
+                >
+                <p>
+                  OceanDex es una aplicación desarrollada en TypeScript y React
+                  que combina diseño minimalista y fluidez visual. Permite
+                  explorar Pokémon con filtros interactivos y una experiencia de
+                  usuario envolvente inspirada en el movimiento del océano. El
+                  proyecto refleja pasión por la programación, precisión técnica
+                  y un estilo elegante centrado en la experiencia del usuario.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col s12 m4">
+            <article class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img
+                  class="activator"
+                  src="img/PizzeriaMammaMia.gif"
+                  alt="Pizzería Mamma Mia! — Aplicación SPA interactiva"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator"
+                  >Pizzeria<i class="material-icons right"
+                    >more_vert</i
+                  ></span
+                >
+                <p>
+                  <a
+                    href="https://github.com/RocioAl/Test-Mamma-Mia"
+                    target="_blank"
+                    class="code"
+                    >CODE</a
+                  >
+                  <a
+                    href="https://astounding-melomakarona-12fe97.netlify.app/"
+                    target="_blank"
+                    >DEMO</a
+                  >
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  ><i class="material-icons right">close</i></span
+                >
+                <p>
+                  Aplicación web moderna tipo
+                  <strong>e-commerce</strong> desarrollada con
+                  <strong>React</strong> y <strong>Bootstrap</strong>, que
+                  permite explorar deliciosas pizzas, ver detalles dinámicos y
+                  añadir productos al carrito con actualización en tiempo
+                  real.<br /><br />
+                  Incluye
+                  <strong>gestión global de estado con Context API</strong>,
+                  navegación fluida mediante <strong>React Router</strong>, y un
+                  diseño <strong>glass-effect azul-verde marino</strong> digno
+                  de un nivel senior de UX/UI. Totalmente
+                  <strong>responsiva</strong>, optimizada y construida con
+                  <strong>buenas prácticas de código limpio y escalable</strong
+                  >.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col s12 m4">
+            <article class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img
+                  class="activator"
+                  src="img/NaturalPic.gif"
+                  alt="Proyecto Marvel SPA"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator"
+                  >Favorites<i class="material-icons right">more_vert</i></span
+                >
+                <p>
+                  <a
+                    href="https://github.com/RocioAl/Natural-Pic"
+                    target="_blank"
+                    class="code"
+                    >CODE</a
+                  >
+                  <a
+                    href="https://sparkling-duckanoo-7813fc.netlify.app/"
+                    target="_blank"
+                    >DEMO</a
+                  >
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  ><i class="material-icons right">close</i></span
+                >
+                <p>
+                  Donde el diseño fluye como el mar y cada favorito brilla como
+                  una ola. Una SPA moderna creada con amor, código y pasión por
+                  el arte digital.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="background-four section scrollspy flex-center">
+      <div class="container smoo">
+        <div class="row">
+          <div class="col s12 center-align title-contact">
+            <h1>CONTÁCTAME</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align contactme">
+            <h4>Estoy buscando nuevos retos</h4>
+            <h5>Contáctame al: <strong>954 318 190</strong></h5>
+            <a
+              href="mailto:koroi.codes@gmail.com"
+              class="tooltipped"
+              data-tooltip="koroi.codes@gmail.com"
+            >
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/RocioAl"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa fa-github-square"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/roc%C3%ADo-alberto-developer/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align">
+            <h5 class="cv">Descargar CV</h5>
+            <a
+              href="docs/Rocio-Alberto.pdf"
+              download
+              class="btn-floating btn waves-effect waves-light"
+              aria-label="Descargar CV"
+            >
+              <i class="material-icons">file_download</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container center-align">
+        <h6>Desarrollado por Rocío Alberto</h6>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
